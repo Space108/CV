@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h1>МИХАИЛ КОЛЯДИН</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" class="tile">Галерея</a></li>
+                    <li><a href="#" class="tile">Фото</a></li>
+                    <li><a href="#" class="tile">Видео</a></li>
+                    <li><a href="#" class="tile">Блог</a></li>
+                </ul>
+            </nav>
+            <button class="change-title" onclick="showAnimatedText()">IT</button>
+            <div id="animatedText">QA</div>
+            <div class="contacts">
+                <h2>Контакты в соцсетях:</h2>
+                <div class="links">
+                    <a href="#" class="tile">ВКонтакте</a>
+                    <a href="#" class="tile">Telegram</a>
+                </div>
+            </div>
+            <footer>
+                <p>© Михаил Колядин.</p>
+            </footer>
+        </aside>
+        <main class="content">
+            <img src="https://media-assets.wired.it/photos/664740835e836fc616cca934/16:9/w_2560%2Cc_limit/514786588" alt="Пример изображения">
+        </main>
+    </div>
+    <script>
+        function showAnimatedText() {
+            const animatedText = document.getElementById('animatedText');
+            animatedText.style.display = 'block'; // Показываем текст
+            animatedText.classList.add('fade-in'); // Добавляем класс анимации
+        }
+    </script>
+</body>
+</html>
