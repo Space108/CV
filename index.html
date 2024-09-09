@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сайт</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://www.yourwebsite.com/3.ico" type="image/x-icon">
+    <style>
+        /* CSS код здесь */
+    </style>
 </head>
 <body>
     <div class="container">
@@ -19,7 +22,7 @@
                 </ul>
             </nav>
             <button class="change-title" onclick="showAnimatedText()">IT</button>
-            <div id="animatedText">QA</div>
+            <div id="animatedText">QA studio</div>
             <div class="contacts">
                 <h2>Контакты в соцсетях:</h2>
                 <div class="links">
@@ -38,8 +41,8 @@
     <script>
         function showAnimatedText() {
             const animatedText = document.getElementById('animatedText');
-            animatedText.style.display = 'block'; // Показываем текст
-            animatedText.classList.add('fade-in'); // Добавляем класс анимации
+            animatedText.style.display = 'block';
+            animatedText.classList.add('fade-in');
         }
     </script>
 </body>
