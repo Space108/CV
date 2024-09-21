@@ -2,7 +2,7 @@ name: Telegram и HTML5-Validator
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     types: [opened, reopened]
   workflow_dispatch:
