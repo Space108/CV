@@ -1,5 +1,8 @@
 function showAnimatedText() {
-    const animatedText = document.getElementById('animatedText');
-    animatedText.style.display = 'block'; 
-    animatedText.classList.add('fade-in'); 
+    var animatedText = document.getElementById('animatedText');
+    if (animatedText.style.display === 'none' || animatedText.style.display === '') {
+        animatedText.style.display = 'block';
+    } else {
+        animatedText.style.display = 'none';
+    }
 }
