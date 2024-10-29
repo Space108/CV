@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт с эффектом параллакса</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Thin:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <div class="parallax parallax-1">
+        <video autoplay muted loop>
+            <source src="Видео.mp4" type="video/mp4">
+            Ваш браузер не поддерживает воспроизведение видео.
+        </video>
+        <div>
+            <h1>Михаил<br>Колядин QA The tester<br>ГАЛАКТИКИ МЛЕЧНЫЙ ПУТЬ</h1>
+            <h2>Автотесты JavaScript Cypress / Тестирование API и интеграций</h2>
+            <h3>Автотесты Python + Pytest + Requests 🎒 Selenium</h3>
+        </div>
+    </div>
+    
+    <section>
+        <h2>ТЕХНОЛОГИИ И ФРЕЙМВОРКИ</h2>
+        <p>------------------------------------</p>
+        <p align="center">
+          <a href="https://skillicons.dev">
+            <img src="https://skillicons.dev/icons?i=java,python,javascript,figma,mongodb,postman,vscode,html,githubactions,grafana,selenium,kafka,cypress" />
+          </a>
+        </p>
+    </section>
+
+    <div class="parallax parallax-2" style="background-image: url('images.png');"></div>
+        
+    <footer>
+        <p>Контакты: 
+            <a href="https://t.me/SpaceKM" target="_blank">Телеграмм</a>
+        </p>
+    </footer>
+    <button id="scroll-top" class="btn-scroll-top">Наверх</button>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
