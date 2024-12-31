@@ -30,7 +30,7 @@ header, footer {
     background-position: center;
 }
 .parallax-1 {
-    background-image: url('8.png'); /* Укажите путь к вашему изображению в текущей директории */
+    background-image: url('108.png'); /* Укажите путь к вашему изображению в текущей директории */
 }
 .parallax h1, .parallax h2 {
     position: relative;
