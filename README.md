@@ -1,3 +1,20 @@
+<br>
+<br>
+<br>
+
+# <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=35&pause=1000&color=1E90FF&width=800&lines=AI+Developer+|+Full-stack+Quality+2.0" alt="AI Developer" />
+
+Разрабатываю и внедряю AI-платформы, нейронных ботов и интеллектуальные системы контроля качества.
+
+<br>
+
+[![Посмотреть CV](https://img.shields.io/badge/Open_Interactive_CV-1E90FF?style=for-the-badge&logo=react&logoColor=white)](https://space108.github.io/CV/)
+
+<br>
+<br>
+
+
+
 # CV - Advanced Space UI
 
 Современный одностраничный CV-сайт в стиле **Advanced Tech-Noir** с живым космическим фоном, glassmorphism-интерфейсом и плавными UI-анимациями.
