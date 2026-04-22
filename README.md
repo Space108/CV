@@ -6,7 +6,7 @@
 
 <a href="https://space108.github.io/CV/">
   <img src="https://img.shields.io/badge/Открыть_сайт-1E90FF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Сайт CV">
-</a>
+</a> 
 
 <br>
 <br>
