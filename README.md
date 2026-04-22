@@ -4,7 +4,9 @@
 
 <br>
 
-[![Посмотреть CV](https://img.shields.io/badge/Open_Interactive_CV-1E90FF?style=for-the-badge&logo=react&logoColor=white)](https://space108.github.io/CV/)
+[![Посмотреть CV]<a href="https://space108.github.io/CV/" target="_blank">
+<img src="https://img.shields.io/badge/Open_Interactive_CV-1E90FF?style=for-the-badge&logo=react&logoColor=white" alt="Interactive CV">
+</a>
 
 <br>
 <br>
